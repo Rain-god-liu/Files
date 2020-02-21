@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh" data-hairline="true" data-theme="light" data-react-helmet="data-theme">
+	<head>
+		<meta charset="utf-8">
+		<title>个人信息 - 知乎</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+		<meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg">
+		<meta name="description" property="og:description" content="有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。知乎凭借认真、专业和友善的社区氛围，结构化、易获得的优质内容，基于问答的内容生产方式和独特的社区机制，吸引、聚集了各行各业中大量的亲历者、内行人、领域专家、领域爱好者，将高质量的内容透过人的节点来成规模地生产和分享。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/user.css">
+		<script type="text/javascript" src="../js/user.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="AppHaeder w">
+				<a href="#" aria-label="知乎" style="line-height: 10px;">
+					<svg viewBox="0 0 200 91" class="ZhihuLogo" width="64" height="30" aria-hidden="true" style="height: 30px; width: 64px;">
+						<title></title>
+						<g>
+							<path d="M53.29 80.035l7.32.002 2.41 8.24 13.128-8.24h15.477v-67.98H53.29v67.978zm7.79-60.598h22.756v53.22h-8.73l-8.718 5.473-1.587-5.46-3.72-.012v-53.22zM46.818 43.162h-16.35c.545-8.467.687-16.12.687-22.955h15.987s.615-7.05-2.68-6.97H16.807c1.09-4.1 2.46-8.332 4.1-12.708 0 0-7.523 0-10.085 6.74-1.06 2.78-4.128 13.48-9.592 24.41 1.84-.2 7.927-.37 11.512-6.94.66-1.84.785-2.08 1.605-4.54h9.02c0 3.28-.374 20.9-.526 22.95H6.51c-3.67 0-4.863 7.38-4.863 7.38H22.14C20.765 66.11 13.385 79.24 0 89.62c6.403 1.828 12.784-.29 15.937-3.094 0 0 7.182-6.53 11.12-21.64L43.92 85.18s2.473-8.402-.388-12.496c-2.37-2.788-8.768-10.33-11.496-13.064l-4.57 3.627c1.363-4.368 2.183-8.61 2.46-12.71H49.19s-.027-7.38-2.372-7.38zm128.752-.502c6.51-8.013 14.054-18.302 14.054-18.302s-5.827-4.625-8.556-1.27c-1.874 2.548-11.51 15.063-11.51 15.063l6.012 4.51zm-46.903-18.462c-2.814-2.577-8.096.667-8.096.667s12.35 17.2 12.85 17.953l6.08-4.29s-8.02-11.752-10.83-14.33zM199.99 46.5c-6.18 0-40.908.292-40.953.292v-31.56c1.503 0 3.882-.124 7.14-.376 12.773-.753 21.914-1.25 27.427-1.504 0 0 3.817-8.496-.185-10.45-.96-.37-7.24 1.43-7.24 1.43s-51.63 5.153-72.61 5.64c.5 2.756 2.38 5.336 4.93 6.11 4.16 1.087 7.09.53 15.36.277 7.76-.5 13.65-.76 17.66-.76v31.19h-41.71s.88 6.97 7.97 7.14h33.73v22.16c0 4.364-3.498 6.87-7.65 6.6-4.4.034-8.15-.36-13.027-.566.623 1.24 1.977 4.496 6.035 6.824 3.087 1.502 5.054 2.053 8.13 2.053 9.237 0 14.27-5.4 14.027-14.16V53.93h38.235c3.026 0 2.72-7.432 2.72-7.432z" fill-rule="evenodd">	
+							</path>
+						</g>
+					</svg>
+				</a>
+				<ul class="AppHeader-Tab">
+					<li><a class="Header-link" style="border-bottom: #0084ff solid 3px;color: #444444; "><strong>首页</strong></a></li>
+					<li><a class="Header-link">发现</a></li>
+					<li><a class="Header-link">等你来答</a></li>
+				</ul>
+				<div class="Search-bar">
+					<label class="SearchBar-input">
+						<input type="text" maxlength="100" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-activedescendant="AutoComplete2-topSearch--1" id="Popover1-toggle" aria-haspopup="true" aria-owns="Popover1-content" class="Input" placeholder="一级响应是什么?" value="">
+						<button aria-label="搜索" type="button" class="searchButton ">
+							<span style="display: inline-flex; align-items: center;">​
+								<svg class=" SearchBar-searchIcon" fill="currentColor" viewBox="0 0 24 24" width="18" height="18">
+									<path d="M17.068 15.58a8.377 8.377 0 0 0 1.774-5.159 8.421 8.421 0 1 0-8.42 8.421 8.38 8.38 0 0 0 5.158-1.774l3.879 3.88c.957.573 2.131-.464 1.488-1.49l-3.879-3.878zm-6.647 1.157a6.323 6.323 0 0 1-6.316-6.316 6.323 6.323 0 0 1 6.316-6.316 6.323 6.323 0 0 1 6.316 6.316 6.323 6.323 0 0 1-6.316 6.316z" fill-rule="evenodd">
+									</path>
+								</svg>
+							</span>
+						</button>
+					</label>
+					<button class="searchButton-askButton">提问</button>
+				</div>
+				<div class="iocn-bar">
+					<div class="Popover icon">
+						<button type="button"  aria-haspopup="true" aria-expanded="false" aria-owns="Popover15-content" class="Push-icon">
+							<span style="display: inline-flex; align-items: center;">​
+								<svg class="Zi Zi--Bell" fill="currentColor" viewBox="0 0 24 24" width="22" height="22">
+									<path d="M4.523 15.076l.804-6.757a6.753 6.753 0 0 1 4.945-5.7 1.823 1.823 0 0 1 3.623 0 6.753 6.753 0 0 1 4.945 5.7l.804 6.757a2.293 2.293 0 0 0 1.712 2.108 1.093 1.093 0 0 1-.297 2.15H3.108a1.093 1.093 0 0 1-.297-2.15 2.293 2.293 0 0 0 1.712-2.108zM12.083 23a2.758 2.758 0 0 1-2.753-2.509.229.229 0 0 1 .232-.24h5.043a.229.229 0 0 1 .232.24 2.759 2.759 0 0 1-2.753 2.51z">
+									</path>
+								</svg>
+							</span>
+						</button>
+					</div>
+					<div>
+						<div class="AppHeader-messages icon ">
+							<button type="button "  aria-haspopup="true" aria-expanded="false" aria-owns="Popover16-content" class="Messages-icon color-grey">
+								<span style="display: inline-flex; align-items: center;">​
+									<svg class="Zi" fill="currentColor" viewBox="0 0 24 24" width="22" height="22">
+										<path d="M11 2c5.571 0 9 4.335 9 8 0 6-6.475 9.764-11.481 8.022-.315-.07-.379-.124-.78.078-1.455.54-2.413.921-3.525 1.122-.483.087-.916-.25-.588-.581 0 0 .677-.417.842-1.904.064-.351-.14-.879-.454-1.171A8.833 8.833 0 0 1 2 10c0-3.87 3.394-8 9-8zm10.14 9.628c.758.988.86 2.009.86 3.15 0 1.195-.619 3.11-1.368 3.938-.209.23-.354.467-.308.722.12 1.073.614 1.501.614 1.501.237.239-.188.562-.537.5-.803-.146-1.495-.42-2.546-.811-.29-.146-.336-.106-.563-.057-2.043.711-4.398.475-6.083-.927 5.965-.524 8.727-3.03 9.93-8.016z" fill-rule="evenodd">
+										</path>
+									</svg>
+								</span>
+							</button>
+						</div>
+					</div>
+					<div>
+						<div>
+							<button>
+								<img src="#" style="height: 30px;width: 30px">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="App-main w">
+			<div class="user-bkg">
+				<div class="Card">
+					<img src="#" width="100% " height="100%">
+				</div>
+				<div class="ProfileHeader-wrapper">
+					<div class="ProfileHeader-main">
+						<div class="UserAvatar">
+							<img src="../img/user.jpg" width="160" height="160">
+						</div>
+						<div class="ProfileHeader-content">
+							<div class="ProfileHeader-contentHead">
+								<h4 class="ProfileHeader-title">
+									<div class="FullnameField-editable">
+										<span style="font-size: 26px;">你的名字</span>
+										<button class="button-link Field-modify Field-modify-hidden">
+											<svg viewBox="0 0 12 12" class="Icon ModifyButton-icon Icon--modify" width="12" height="16" aria-hidden="true" style="height: 16px; width: 12px;">
+												<title></title>
+												<g>
+													<path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z" fill-rule="evenodd"></path>
+												</g>
+											</svg>
+											修改
+										</button>
+									</div>
+								</h4>
+							</div>
+							<div class="ProfileHeader-contentBody" style="display: none;"></div>
+							<div class="ProfileHeader-contentFooter" style="display: none;">
+								<button class="Button--plain">
+									<svg viewBox="0 0 10 6" class="Icon Icon--arrow" width="10" height="16" aria-hidden="true" style="height: 16px; width: 10px;">
+										<title></title>
+										<g>
+											<path d="M8.716.217L5.002 4 1.285.218C.99-.072.514-.072.22.218c-.294.29-.294.76 0 1.052l4.25 4.512c.292.29.77.29 1.063 0L9.78 1.27c.293-.29.293-.76 0-1.052-.295-.29-.77-.29-1.063 0z"></path>
+										</g>
+									</svg>
+									查看详细资料
+								</button>
+								<div class="ProfileHeader-buttons">
+									<button class="button-blue" id="change">
+										编辑个人资料
+									</button>
+								</div>
+							</div>
+							<div class="ProfileEdit-fields" style="display:">
+								<form class="Field">
+									<h3 class="Field-label">性别</h3>
+									<div class="Field-content">
+										<div class="field-choice" id="" style="display: none;">
+											<span class="Field-text">未知</span>
+											<button class="Field-modify button-link Field-modify-hidden">
+												<svg viewBox="0 0 12 12" class="Icon ModifyButton-icon Icon--modify" width="12" height="16" aria-hidden="true" style="height: 16px; width: 12px;">
+													<title></title>
+													<g>
+														<path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z" fill-rule="evenodd"></path>
+													</g>
+												</svg>
+												修改
+											</button>
+										</div>
+										<div class="field-choice" id="">
+											<input type="radio" name="gender" value="男">
+											男
+											<input type="radio" name="gender" value="女" style="margin-left: 30px;">
+											女
+											<div class="ButtonGroup">
+												<button class="Button--blue allbutton">保存</button>
+												<button class="Button--grey Button allbutton">取消</button>
+											</div>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">一句话介绍</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify button-link" >
+												<svg viewBox="0 0 12 12" class="Icon ModifyButton-icon Icon--modify" width="12" height="16" aria-hidden="true" style="height: 16px; width: 12px;">
+													<title></title>
+													<g>
+														<path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z" fill-rule="evenodd"></path>
+													</g>
+												</svg>
+												填写
+											</button>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">居住地</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify button-link" >
+												<svg viewBox="0 0 18 18" class="Icon AddButton-icon Icon--add Icon--left" width="20" height="20" aria-hidden="true" style="height: 20px; width: 20px;">
+													<title></title>
+													<g>
+														<g fill-rule="evenodd">
+															<path d="M6.035 16.433c-.875-.35-1.678-.848-2.383-1.482-.205-.184-.52-.167-.707.04-.185.204-.167.52.038.705.794.714 1.696 1.274 2.682 1.668.06.023.123.035.185.035.198 0 .386-.12.464-.314.103-.258-.022-.55-.28-.65zM1.097 10.247C1.054 9.975.8 9.79.525 9.83c-.273.043-.46.3-.417.57.154.98.467 1.925.93 2.803.09.17.264.267.443.267.08 0 .16-.02.234-.058.244-.13.338-.432.208-.676-.41-.78-.69-1.618-.825-2.49zM9.106 1c.95.014 1.878.19 2.76.528.058.022.118.033.178.033.2 0 .39-.12.467-.32.1-.258-.03-.547-.287-.646C11.233.214 10.19.014 9.12 0h-.007c-.273 0-.496.22-.5.493-.003.278.218.504.493.508zM3.73 2.83c.108 0 .218-.034.31-.107.693-.55 1.465-.976 2.295-1.27.26-.09.397-.377.305-.637C6.548.556 6.263.42 6.002.51 5.068.84 4.2 1.323 3.42 1.94c-.217.17-.254.485-.083.702.1.124.245.19.393.19zM2.01 4.136c-.236-.144-.544-.07-.688.165-.557.91-.945 1.9-1.15 2.944-.055.27.12.534.392.587.033.008.065.01.098.01.234 0 .443-.164.49-.402.184-.927.528-1.807 1.023-2.614.144-.236.07-.543-.165-.688zM14.927 2.228c-.207-.183-.523-.162-.705.047-.182.208-.16.523.047.706.664.583 1.224 1.265 1.665 2.028.092.16.26.25.433.25.085 0 .17-.02.25-.067.24-.137.32-.443.183-.682-.495-.86-1.125-1.626-1.873-2.28zM17.294 7.07c-.27.047-.454.306-.408.578.076.44.114.896.114 1.35 0 .493-.046.984-.133 1.46-.05.27.13.532.402.582.03.005.06.008.09.008.236 0 .446-.17.49-.41.1-.534.148-1.085.15-1.638 0-.513-.044-1.025-.13-1.52-.045-.273-.303-.457-.576-.41zM16.566 12.91c-.235-.14-.544-.065-.686.174-.452.76-1.02 1.434-1.692 2.005-.21.18-.235.494-.057.704.1.116.24.176.382.176.115 0 .23-.04.324-.12.754-.643 1.395-1.4 1.903-2.254.142-.238.064-.544-.174-.686zM11.766 16.51c-.884.325-1.814.49-2.772.49l-.208-.002c-.283-.02-.505.21-.513.487-.007.275.21.506.487.513L9 18c1.07 0 2.116-.186 3.11-.553.26-.095.393-.383.297-.642-.095-.26-.385-.392-.64-.295zM9.8 8.2V6.3c0-.442-.358-.8-.8-.8-.442 0-.8.358-.8.8v1.9H6.3c-.442 0-.8.358-.8.8 0 .442.358.8.8.8h1.9v1.9c0 .442.358.8.8.8.442 0 .8-.358.8-.8V9.8h1.9c.442 0 .8-.358.8-.8 0-.442-.358-.8-.8-.8H9.8z"></path>
+														</g>
+													</g>
+												</svg>
+												添加居住地
+											</button>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">所在行业</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify button-link" >
+												<svg viewBox="0 0 12 12" class="Icon ModifyButton-icon Icon--modify" width="12" height="16" aria-hidden="true" style="height: 16px; width: 12px;">
+													<title></title>
+													<g>
+														<path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z" fill-rule="evenodd"></path>
+													</g>
+												</svg>
+												请填写行业信息
+											</button>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">职业经历</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify button-link" >
+												<svg viewBox="0 0 18 18" class="Icon AddButton-icon Icon--add Icon--left" width="20" height="20" aria-hidden="true" style="height: 20px; width: 20px;">
+													<title></title>
+													<g>
+														<g fill-rule="evenodd">
+															<path d="M6.035 16.433c-.875-.35-1.678-.848-2.383-1.482-.205-.184-.52-.167-.707.04-.185.204-.167.52.038.705.794.714 1.696 1.274 2.682 1.668.06.023.123.035.185.035.198 0 .386-.12.464-.314.103-.258-.022-.55-.28-.65zM1.097 10.247C1.054 9.975.8 9.79.525 9.83c-.273.043-.46.3-.417.57.154.98.467 1.925.93 2.803.09.17.264.267.443.267.08 0 .16-.02.234-.058.244-.13.338-.432.208-.676-.41-.78-.69-1.618-.825-2.49zM9.106 1c.95.014 1.878.19 2.76.528.058.022.118.033.178.033.2 0 .39-.12.467-.32.1-.258-.03-.547-.287-.646C11.233.214 10.19.014 9.12 0h-.007c-.273 0-.496.22-.5.493-.003.278.218.504.493.508zM3.73 2.83c.108 0 .218-.034.31-.107.693-.55 1.465-.976 2.295-1.27.26-.09.397-.377.305-.637C6.548.556 6.263.42 6.002.51 5.068.84 4.2 1.323 3.42 1.94c-.217.17-.254.485-.083.702.1.124.245.19.393.19zM2.01 4.136c-.236-.144-.544-.07-.688.165-.557.91-.945 1.9-1.15 2.944-.055.27.12.534.392.587.033.008.065.01.098.01.234 0 .443-.164.49-.402.184-.927.528-1.807 1.023-2.614.144-.236.07-.543-.165-.688zM14.927 2.228c-.207-.183-.523-.162-.705.047-.182.208-.16.523.047.706.664.583 1.224 1.265 1.665 2.028.092.16.26.25.433.25.085 0 .17-.02.25-.067.24-.137.32-.443.183-.682-.495-.86-1.125-1.626-1.873-2.28zM17.294 7.07c-.27.047-.454.306-.408.578.076.44.114.896.114 1.35 0 .493-.046.984-.133 1.46-.05.27.13.532.402.582.03.005.06.008.09.008.236 0 .446-.17.49-.41.1-.534.148-1.085.15-1.638 0-.513-.044-1.025-.13-1.52-.045-.273-.303-.457-.576-.41zM16.566 12.91c-.235-.14-.544-.065-.686.174-.452.76-1.02 1.434-1.692 2.005-.21.18-.235.494-.057.704.1.116.24.176.382.176.115 0 .23-.04.324-.12.754-.643 1.395-1.4 1.903-2.254.142-.238.064-.544-.174-.686zM11.766 16.51c-.884.325-1.814.49-2.772.49l-.208-.002c-.283-.02-.505.21-.513.487-.007.275.21.506.487.513L9 18c1.07 0 2.116-.186 3.11-.553.26-.095.393-.383.297-.642-.095-.26-.385-.392-.64-.295zM9.8 8.2V6.3c0-.442-.358-.8-.8-.8-.442 0-.8.358-.8.8v1.9H6.3c-.442 0-.8.358-.8.8 0 .442.358.8.8.8h1.9v1.9c0 .442.358.8.8.8.442 0 .8-.358.8-.8V9.8h1.9c.442 0 .8-.358.8-.8 0-.442-.358-.8-.8-.8H9.8z"></path>
+														</g>
+													</g>
+												</svg>
+												添加职业经历
+											</button>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">教育经历</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify button-link" >
+												<svg viewBox="0 0 18 18" class="Icon AddButton-icon Icon--add Icon--left" width="20" height="20" aria-hidden="true" style="height: 20px; width: 20px;">
+													<title></title>
+													<g>
+														<g fill-rule="evenodd">
+															<path d="M6.035 16.433c-.875-.35-1.678-.848-2.383-1.482-.205-.184-.52-.167-.707.04-.185.204-.167.52.038.705.794.714 1.696 1.274 2.682 1.668.06.023.123.035.185.035.198 0 .386-.12.464-.314.103-.258-.022-.55-.28-.65zM1.097 10.247C1.054 9.975.8 9.79.525 9.83c-.273.043-.46.3-.417.57.154.98.467 1.925.93 2.803.09.17.264.267.443.267.08 0 .16-.02.234-.058.244-.13.338-.432.208-.676-.41-.78-.69-1.618-.825-2.49zM9.106 1c.95.014 1.878.19 2.76.528.058.022.118.033.178.033.2 0 .39-.12.467-.32.1-.258-.03-.547-.287-.646C11.233.214 10.19.014 9.12 0h-.007c-.273 0-.496.22-.5.493-.003.278.218.504.493.508zM3.73 2.83c.108 0 .218-.034.31-.107.693-.55 1.465-.976 2.295-1.27.26-.09.397-.377.305-.637C6.548.556 6.263.42 6.002.51 5.068.84 4.2 1.323 3.42 1.94c-.217.17-.254.485-.083.702.1.124.245.19.393.19zM2.01 4.136c-.236-.144-.544-.07-.688.165-.557.91-.945 1.9-1.15 2.944-.055.27.12.534.392.587.033.008.065.01.098.01.234 0 .443-.164.49-.402.184-.927.528-1.807 1.023-2.614.144-.236.07-.543-.165-.688zM14.927 2.228c-.207-.183-.523-.162-.705.047-.182.208-.16.523.047.706.664.583 1.224 1.265 1.665 2.028.092.16.26.25.433.25.085 0 .17-.02.25-.067.24-.137.32-.443.183-.682-.495-.86-1.125-1.626-1.873-2.28zM17.294 7.07c-.27.047-.454.306-.408.578.076.44.114.896.114 1.35 0 .493-.046.984-.133 1.46-.05.27.13.532.402.582.03.005.06.008.09.008.236 0 .446-.17.49-.41.1-.534.148-1.085.15-1.638 0-.513-.044-1.025-.13-1.52-.045-.273-.303-.457-.576-.41zM16.566 12.91c-.235-.14-.544-.065-.686.174-.452.76-1.02 1.434-1.692 2.005-.21.18-.235.494-.057.704.1.116.24.176.382.176.115 0 .23-.04.324-.12.754-.643 1.395-1.4 1.903-2.254.142-.238.064-.544-.174-.686zM11.766 16.51c-.884.325-1.814.49-2.772.49l-.208-.002c-.283-.02-.505.21-.513.487-.007.275.21.506.487.513L9 18c1.07 0 2.116-.186 3.11-.553.26-.095.393-.383.297-.642-.095-.26-.385-.392-.64-.295zM9.8 8.2V6.3c0-.442-.358-.8-.8-.8-.442 0-.8.358-.8.8v1.9H6.3c-.442 0-.8.358-.8.8 0 .442.358.8.8.8h1.9v1.9c0 .442.358.8.8.8.442 0 .8-.358.8-.8V9.8h1.9c.442 0 .8-.358.8-.8 0-.442-.358-.8-.8-.8H9.8z"></path>
+														</g>
+													</g>
+												</svg>
+												添加教育经历
+											</button>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">个人认证</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify " >
+												<a class="button-link">
+												申请个人认证
+													<span style="display: inline-flex; align-items: center;">​
+														<svg class="Zi Zi--ArrowRight" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+															<path d="M9.218 16.78a.737.737 0 0 0 1.052 0l4.512-4.249a.758.758 0 0 0 0-1.063L10.27 7.22a.737.737 0 0 0-1.052 0 .759.759 0 0 0-.001 1.063L13 12l-3.782 3.716a.758.758 0 0 0 0 1.063z" fill-rule="evenodd"></path>
+														</svg>
+													</span>
+												</a>
+											</button>
+										</div> 
+									</div>
+								</form>
+								<form class="Field">
+									<h3 class="Field-label">个人简介</h3>
+									<div class="Field-content" style="height: 36px;">
+										<div>
+											<button class="Field-modify button-link" >
+												<svg viewBox="0 0 12 12" class="Icon ModifyButton-icon Icon--modify" width="12" height="16" aria-hidden="true" style="height: 16px; width: 12px;">
+													<title></title>
+													<g>
+														<path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z" fill-rule="evenodd"></path>
+													</g>
+												</svg>
+												填写
+											</button>
+										</div> 
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Profile-main chearfix" style="display: none;">
+				<div class="Profile-mainColumn fl">
+					<div class="ProfileMain-header">
+						<ul class="ProfileMain-tabs">
+							<li class="Tabs-item ">
+								<a class="Tabs-link "><strong>动态</strong></a>
+							</li>
+							<li class="Tabs-item ">
+								<a class="Tabs-link">回答<span class="Tabs-meta">0</span></a>
+							</li>
+							<li class="Tabs-item ">
+								<a class="Tabs-link">提问<span class="Tabs-meta">0</span></a>
+							</li>
+							<li class="Tabs-item ">
+								<a class="Tabs-link">文章<span class="Tabs-meta">0</span></a>
+							</li>
+							<li class="Tabs-item ">
+								<a class="Tabs-link">专栏<span class="Tabs-meta">0</span></a>
+							</li>
+							<li class="Tabs-item ">
+								<a class="Tabs-link">想法<span class="Tabs-meta">0</span></a>
+							</li>
+							<li class="Tabs-item ">
+								<div class="Tabs-link">
+									<button class="tabs-button">
+											更多
+										<svg viewBox="0 0 10 6" class="Icon" width="10" height="16" aria-hidden="true" style="height: 16px; width: 10px;"><title></title><g><path d="M8.716.217L5.002 4 1.285.218C.99-.072.514-.072.22.218c-.294.29-.294.76 0 1.052l4.25 4.512c.292.29.77.29 1.063 0L9.78 1.27c.293-.29.293-.76 0-1.052-.295-.29-.77-.29-1.063 0z"></path></g></svg>
+									</button>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="ListShortcut">
+						<div class="List-header" >
+							<h3>我的动态</h3>
+							<div></div>
+						</div>
+						<div class="List-header" style="display: none;">
+							<h4 class="List-headerText">
+								<div class="SubTabs">
+									<a class="SubTabs-item active">我关注的人</a>
+									<a class="SubTabs-item">关注我的人</a>
+									<span class="SubTabs-item">
+										<div class="Popover">
+											<button class="follow-button">
+												我关注的专栏
+												<svg class="Zi Zi--Select Select-arrow" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
+													<path d="M12 16.183l2.716-2.966a.757.757 0 0 1 1.064.001.738.738 0 0 1 0 1.052l-3.247 3.512a.758.758 0 0 1-1.064 0L8.22 14.27a.738.738 0 0 1 0-1.052.758.758 0 0 1 1.063 0L12 16.183zm0-9.365L9.284 9.782a.758.758 0 0 1-1.064 0 .738.738 0 0 1 0-1.052l3.248-3.512a.758.758 0 0 1 1.065 0L15.78 8.73a.738.738 0 0 1 0 1.052.757.757 0 0 1-1.063.001L12 6.818z" fill-rule="evenodd"></path>
+												</svg>
+											</button>
+										</div>
+									</span>
+								</div>
+							</h4>
+							<div></div>
+						</div>
+						<div>
+							<div class="List-item">
+								<div class="ContentItem">
+									<div class="ContentItem-main">
+										<div class="ContentItem-image">
+											<span>
+												<div>
+													<a class="UserLink-link">
+														<img src="#" class="Avatar" width="60" height="60">
+													</a>
+												</div>
+											</span>
+										</div>
+										<div class="ContentItem-head">
+											<h2 class="ContentItem-title">
+												<div class="UserItem-title">
+													<span class="UserLink">
+														<div class="Popover">
+															<a href="#" class="UserLink-link">User-name</a>
+														</div>
+													</span>
+												</div>
+											</h2>
+											<div class="ContentItem-meta">
+												<div>
+													<div>
+														<span>
+															<span>
+																<a href="#">游戏</a>
+															</span>
+															<span>
+																<a href="#">漫画</a>
+															</span>
+															<span>
+																<a href="#">网络游戏</a>
+															</span>
+															话题
+														</span>
+														的优秀回答者
+													</div>
+													<div class="ContentItem-status">
+														<span class="ContentItem-statusItem">1,267 回答</span>
+														<span class="ContentItem-statusItem">33 文章</span>
+														<span class="ContentItem-statusItem">172,069 关注者</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="ContentItem-extra">
+											<button class="Follow-button">已关注</button>
+										</div>	
+									</div>
+								</div>
+							</div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+							<div class="List-item"></div>
+						</div>
+					</div>
+				</div>
+				<div class="Profile-sideColumn fr">
+					<div class="CreatorEntrance">
+						<a class="CreatorEntrance-link">
+							<div class="CreatorEntrance-hint">
+								<img src="#" class="CreatorEntrance-image">
+								<div class="CreatorEntrance-text">
+									<div class="CreatorEntrance-title">
+										<div class="css-3j2kqe">
+											创作者中心
+											<span style="color: rgb(0, 132, 255);">去开通</span>
+										</div>
+									</div>
+									<div></div>
+								</div>
+								<svg class="CreatorEntrance-arrow" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M9.218 16.78a.737.737 0 0 0 1.052 0l4.512-4.249a.758.758 0 0 0 0-1.063L10.27 7.22a.737.737 0 0 0-1.052 0 .759.759 0 0 0-.001 1.063L13 12l-3.782 3.716a.758.758 0 0 0 0 1.063z" fill-rule="evenodd"></path></svg>
+							</div>
+						</a>
+					</div>
+					<div class="CreatorEntrance">
+						<div class="NumberBoard">
+							<a class="NumberBoard-item" style="border-right: 1px solid #8590a6;">
+								<div class="NumberBoard-itemInner">
+									<div class="NumberBoard-itemName">关注了</div>
+									<strong class="NumberBoard-itemValue">0</strong>
+								</div>
+							</a>
+							<a class="NumberBoard-item">
+								<div class="NumberBoard-itemInner">
+									<div class="NumberBoard-itemName">关注者</div>
+									<strong class="NumberBoard-itemValue">0</strong>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="Profile-lightList">
+						<a class="Profile-lightItem">
+							<span class="Profile-lightItemName">关注的话题</span>
+							<span class="Profile-lightItemValue">0</span>
+						</a>
+						<a class="Profile-lightItem">
+							<span class="Profile-lightItemName">关注的专栏</span>
+							<span class="Profile-lightItemValue">0</span>
+						</a>
+						<a class="Profile-lightItem">
+							<span class="Profile-lightItemName">关注的问题</span>
+							<span class="Profile-lightItemValue">0</span>
+						</a>
+						<a class="Profile-lightItem">
+							<span class="Profile-lightItemName">关注的收藏夹</span>
+							<span class="Profile-lightItemValue">0</span>
+						</a>
+					</div>
+					<div class="Profile-footerOperations">
+							个人主页一次都没有被浏览
+					</div>
+					<div class="right-Footer">
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="//liukanshan.zhihu.com/">刘看山</a>
+						<span class="Footer-dot"></span>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="/question/19581624">知乎指南</a>
+						<span class="Footer-dot"></span>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="/terms">知乎协议</a>
+						<span class="Footer-dot"></span>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="/term/privacy">知乎隐私保护指引</a><br>
+						<a class="Footer-item" target="_blank" href="/app">应用</a>
+						<span class="Footer-dot"></span>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="https://app.mokahr.com/apply/zhihu">工作</a><span class="Footer-dot"></span>
+						<button type="Button" class="Button OrgCreateButton">申请开通知乎机构号</button><br>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="https://zhuanlan.zhihu.com/p/51068775">侵权举报</a><span class="Footer-dot"></span>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="http://www.12377.cn">网上有害信息举报专区</a><br>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="https://tsm.miit.gov.cn/dxxzsp/">京 ICP 证 110745 号</a><br>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="http://www.beian.miit.gov.cn">京 ICP 备 13052560 号 - 1</a><br>
+						<a class="Footer-item" target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020088">
+							<img src="https://pic3.zhimg.com/80/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png">京公网安备 11010802010035 号</a><br><span class="Footer-item">互联网药品信息服务资格证书<br>（京）- 非经营性 - 2017 - 0067</span>
+							<span class="Footer-item">违法和不良信息举报：010-82716601</span><br>
+							<a class="Footer-item" target="_blank" href="/jubao">儿童色情信息举报专区</a><br>
+							<a class="Footer-item" target="_blank" href="/certificates">证照中心</a><br>
+							<a class="Footer-item" target="_blank" href="/contact">联系我们</a><span style=""> © 2020 知乎</span>
+				</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

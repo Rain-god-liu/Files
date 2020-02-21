@@ -1,0 +1,199 @@
+body{
+    background-image:url(../img/denglu.png);
+    }
+.header{
+	display: flex;
+}
+.logo{
+	margin: 127px auto 0 ;
+	width: 128px;
+	height: 100px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 128px 80px;
+	}
+.fl{
+	float:left;
+	font-size: 16px;
+	color: #444444;
+	font-weight: normal;
+	margin:20px 20px 20px 26px;
+	cursor: pointer;
+	}
+.fr{
+	float:left;
+	font-size: 16px;
+	color: #444444;
+	font-weight: normal;
+	margin: 20px;
+	cursor: pointer;
+}
+.form{
+	margin: auto;
+	width: 400px;
+	height: 380px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+
+}
+ul{
+	margin-top:20px;
+}
+li input { 
+	line-height: 48px;
+	width: 100%;
+	height: 48px;
+    overflow: hidden;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    background: transparent;
+    border:none;
+    outline:none;
+}
+li{
+	padding-left:23px;
+	padding-right:23px; 
+}
+#one{
+	display: flex;	
+	align-items: center;
+	padding: 0;
+	margin: 0px 23px;
+	border-bottom:1px solid #ebebeb ;
+
+}
+#two{
+	padding:5px 0px 0px 0px;
+	position:relative;
+	margin :0px 23px;
+	border-bottom:1px solid #ebebeb ;
+}
+#th{
+	display: flex;
+	justify-content: space-between;
+	margin-top:12px;
+}
+ #th button{
+    background: none;
+    font-size:15px;
+    display: inline-block;
+    border:none;
+    color: #175199;
+    cursor: pointer;
+}
+#fo button{
+	width: 352px;
+	height: 36px;
+	background-color:#0084ff;
+	text-align: center;
+	color: #ffffff;
+	border:1px solid #0084ff;
+} 	
+#fo{
+	margin-top:30px;
+
+}
+#fi{
+	display: flex;
+	justify-content: space-between; 	
+	color: grey;
+	font-size:13px;
+	margin-top:40px;
+}
+.social-login{
+	margin: auto;
+	width: 400px;
+	height: 60px;
+	background-color: #ffffff;
+	margin-top:25px;
+	display: flex;
+	justify-content: center;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+
+}
+.Login-ButtonGroup{
+	line-height: 60px;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 20px;
+}
+.Login-Button{
+	cursor: pointer;
+	font-size: 15px;
+}
+.Login-Button:not(:first-child) {
+    margin-left: 26px;
+}
+.app{
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 43px;
+	background: #fff;
+    border: none;
+    color: #0084ff;
+    margin-top: 24px;
+    border-radius: 3px;
+    }
+.footer{
+	margin-top: 130px;
+	padding-bottom: 20px; 
+	color: #fff;
+    text-shadow: 0 1px 2px #999;
+    text-align: center;
+    line-height: 21px;
+    font-size: 12px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+}
+.footer a{
+	color: #fff;
+}
+.border{
+	padding-bottom: 10px;
+	font-weight: 600;
+	border-bottom: 3px solid #0084ff;
+
+}
+.button-eyes{
+	position: absolute;
+	top: 27px;
+	right: -6px;
+	width: 24px;
+	height: 20px;
+	font-family: 'icomoon';
+	color:#8590A6;
+	cursor: pointer;
+}
+.SignFlow-supportedCount{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.SignFlow-accountSeperator{
+	width: 1px;
+    height: 22px;
+    margin: 0 12px;
+    background: #ebebeb;
+}
+.Select-arrow {
+    margin-left: 8px;
+}
+.Verification{
+	padding: 4px 0;
+    color: #175199;
+   	position: absolute;
+	top: 17px;
+	right: 0px;
+	font-size: 14px;
+}
+.tlp-btn{
+	border: 1px solid transparent;
+	display: flex;align-items: center;
+	width:93px;
+}
+
+.change::-webkit-input-placeholder {
+     color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src ="../js/ajax.js"></script>
+    <script>
+        
+        window.onload=function(){
+            let text1 = document.querySelector('#textarea');
+            let btn = document.querySelector('#btn');
+            let API = 'https://music.niubishanshan.top/api/v2/music/search/';     
+            btn.onclick = function(){
+                if(text1.value==''){
+                    alert('请输入内容');
+                    return false;
+                }
+                else{
+                    text1.value;
+                ajax(API,'get',   //简单模拟jq中的封装方式
+                   text1.value,'text'
+                ,function(xhr){
+                    console.log(xhr);    
+            },function(xhr){alert("请求发生错误或无资源查询"+xhr.status)}) 
+        }        
+    }                             
+}
+
+    </script>
+<body>
+    <div id = 'mian'><input type=text id='textarea'><button id="btn">发送</button></div>
+    <div id ='body' >
+        <div class="respons"></div>
+    </div>
+  
+
+    
+    
+</body>
+</html>

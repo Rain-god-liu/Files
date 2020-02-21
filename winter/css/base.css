@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*防斜体*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉li前面的点*/
+li{
+    list-style:none;
+}
+/*图片眉头边框  去掉图片底边的空白缝隙*/
+img {
+    border:0;
+    vertical-align:middle;
+}
+/*让button按钮 变成小手*/
+button{
+    cursor:pointer;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+}
+/*取消连接的下划线*/
+a{
+    color: #666;    
+    text-decoration:none;
+}
+a:hover{
+    color:#e33333;
+}
+button,
+input{
+    font-family: 'Microsoft Yahei','Heiti SC',tahoma,arial,'Hiragino Sans GB',\\5B8B\4F53,sans-serif;
+}
+body{
+    background-color: #f6f6f6;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+}
+.hide,
+.none{
+    display: none;
+}
+/*清除浮动*/
+.clearfix:after{
+    visibility:hidden;
+    clear:both;
+    display:block;
+    content:"·";
+    height:0
+}
+.clearfix{
+    *zoom:1
+}
+.input{
+    border: none;
+    resize: none;
+}
